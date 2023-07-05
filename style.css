@@ -1,0 +1,50 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #606C5D;
+    justify-content: center;
+}
+
+h1 {
+    color: #F1C376;
+}
+
+.text-box {
+    border-style: solid;
+    width: 400px;
+    height: 300px;
+    background-color: #F7E6C4;
+    border: 5px solid #F1C376;
+    border-radius: 15px;
+    color: black;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.btn-dropdwn {
+    display: flex;
+    gap: 20px;
+}
+
+button, select {
+    background-color: #FFF4F4;
+    color: black;
+}

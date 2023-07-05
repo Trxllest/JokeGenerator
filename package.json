@@ -1,0 +1,14 @@
+{
+  "name": "simple-html",
+  "version": "1.0.0",
+  "description": "A simple html project",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
