@@ -1,5 +1,4 @@
-
-
+//Global variables 
 
 let baseURL = "https://v2.jokeapi.dev/joke/Any?type=single";
 let translationAPI = "https://translate.yandex.net/api/v1.5/tr.json/getLangs?key=trnsl.1.1.20230704T234935Z.4c8b1b9b34791484.d773619c2575d193852466a82d240de04b719d37&ui=en";
@@ -21,6 +20,7 @@ function getLanguages() {
     })
 }
 
+
 function bindSelect() {
     document.querySelector('select#languages').addEventListener('change', e => {
 
@@ -30,7 +30,7 @@ function bindSelect() {
 }
 
 
-
+//Populates the dropdown menu with languages
 
 function populateDropdownLanguage(list) {
     //Get the select
@@ -46,10 +46,7 @@ function populateDropdownLanguage(list) {
 }
 
 
-//attach a click event to the button
-
-
-
+//Attach a click event to the button
 // Waits for page to load
 
 document.addEventListener('DOMContentLoaded', () => {
