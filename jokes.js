@@ -1,6 +1,6 @@
 //Global variables 
 
-let baseURL = "https://v2.jokeapi.dev/joke/Any?type=single";
+let baseURL = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,racist,sexist,explicit&type=single";
 let translationAPI = "https://translate.yandex.net/api/v1.5/tr.json/getLangs?key=trnsl.1.1.20230704T234935Z.4c8b1b9b34791484.d773619c2575d193852466a82d240de04b719d37&ui=en";
 let translateTextAPI = (text, lang) => `https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20230704T234935Z.4c8b1b9b34791484.d773619c2575d193852466a82d240de04b719d37&ui=en&text=${text}&lang=${lang}`;
 let selectedLang = null; // Hold selected Language value
